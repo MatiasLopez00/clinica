@@ -3,16 +3,17 @@ html{
     padding: 0%;
 }
 body{
-    background-color: #f7e1d7;
+    background-color: whitesmoke;
     height: 100%;
 h1{
-    margin: 1.5rem;
+    margin: 2rem;
+    text-align: center;
     font-weight: bolder;
     font-size: 40px;
 }
 .contenedorIndex{
     margin-left: 1rem;
-    .primerSubTi{
+    .primerSubTit{
         text-align: center;
         font-weight: bolder;
         font-size: 30px;
@@ -21,11 +22,12 @@ h1{
     .explicacion1{
         display: flex;
         flex-direction: row;
-        width: 80%;
+        width: 95%;
         img{
+            align-items: end;
             margin: 5px;
-            width: 15rem;
-            height: 15rem;
+            width: 25rem;
+            height: 25rem;
             border: solid black;
 
         }
@@ -33,7 +35,7 @@ h1{
             margin-right: 15px;
             text-align: center;
             font-weight: bold;
-            margin-top: 2rem;
+            margin-top: 4rem;
         }
     }
     .segSubTit{

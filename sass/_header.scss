@@ -5,20 +5,15 @@ header{
             .navbar-brand{
                 justify-content: space-evenly;
                 img{
-                    width: 4rem;
-                    height: 4rem;
+                    width: 8rem;
+                    height: 8rem;
                 }
             }
-            .collapse navbar-collapse{
-                margin-left: 10px;
+            div{
+                margin-left: auto;
                 ul{
-                    width: 100%!important;
-                    display: flex;
+                    margin-right: 0;
                     margin-left: auto;
-                    justify-content: space-evenly!important;
-                    .nav-item{
-                            text-align: center;
-                    }
                 }
                 }
             }

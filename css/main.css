@@ -4,18 +4,19 @@ html {
 }
 
 body {
-  background-color: #f7e1d7;
+  background-color: whitesmoke;
   height: 100%;
 }
 body h1 {
-  margin: 1.5rem;
+  margin: 2rem;
+  text-align: center;
   font-weight: bolder;
   font-size: 40px;
 }
 body .contenedorIndex {
   margin-left: 1rem;
 }
-body .contenedorIndex .primerSubTi {
+body .contenedorIndex .primerSubTit {
   text-align: center;
   font-weight: bolder;
   font-size: 30px;
@@ -23,19 +24,20 @@ body .contenedorIndex .primerSubTi {
 body .contenedorIndex .explicacion1 {
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 95%;
 }
 body .contenedorIndex .explicacion1 img {
+  align-items: end;
   margin: 5px;
-  width: 15rem;
-  height: 15rem;
+  width: 25rem;
+  height: 25rem;
   border: solid black;
 }
 body .contenedorIndex .explicacion1 p {
   margin-right: 15px;
   text-align: center;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 body .contenedorIndex .segSubTit {
   text-align: center;
@@ -59,7 +61,7 @@ body .contenedorIndex p {
 }
 
 footer {
-  background-color: #0d1321;
+  background-color: #e3f2fd;
   width: 100%;
   height: 4rem;
 }
@@ -90,7 +92,7 @@ footer .containerFooter .footer-content .footer-links ul li {
 footer .containerFooter .footer-content .footer-links ul li a {
   margin-top: 1rem;
   text-decoration: none;
-  color: #edf6f9;
+  color: black;
 }
 footer .containerFooter .footer-content .footer-links ul li a:hover {
   font-size: 20px;
@@ -119,20 +121,15 @@ header nav .container-fluid .navbar-brand {
   justify-content: space-evenly;
 }
 header nav .container-fluid .navbar-brand img {
-  width: 4rem;
-  height: 4rem;
+  width: 8rem;
+  height: 8rem;
 }
-header nav .container-fluid .collapse navbar-collapse {
-  margin-left: 10px;
-}
-header nav .container-fluid .collapse navbar-collapse ul {
-  width: 100% !important;
-  display: flex;
+header nav .container-fluid div {
   margin-left: auto;
-  justify-content: space-evenly !important;
 }
-header nav .container-fluid .collapse navbar-collapse ul .nav-item {
-  text-align: center;
+header nav .container-fluid div ul {
+  margin-right: 0;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=main.css.map */
