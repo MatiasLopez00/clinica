@@ -1,0 +1,26 @@
+header{
+    nav{
+        padding: 5px;
+        .container-fluid{
+            .navbar-brand{
+                justify-content: space-evenly;
+                img{
+                    width: 4rem;
+                    height: 4rem;
+                }
+            }
+            .collapse navbar-collapse{
+                margin-left: 10px;
+                ul{
+                    width: 100%!important;
+                    display: flex;
+                    margin-left: auto;
+                    justify-content: space-evenly!important;
+                    .nav-item{
+                            text-align: center;
+                    }
+                }
+                }
+            }
+        }
+    }

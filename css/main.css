@@ -1,0 +1,138 @@
+html {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #f7e1d7;
+  height: 100%;
+}
+body h1 {
+  margin: 1.5rem;
+  font-weight: bolder;
+  font-size: 40px;
+}
+body .contenedorIndex {
+  margin-left: 1rem;
+}
+body .contenedorIndex .primerSubTi {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+body .contenedorIndex .explicacion1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+body .contenedorIndex .explicacion1 img {
+  margin: 5px;
+  width: 15rem;
+  height: 15rem;
+  border: solid black;
+}
+body .contenedorIndex .explicacion1 p {
+  margin-right: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+body .contenedorIndex .segSubTit {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+body .contenedorIndex p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+body .contenedorIndex .terSubTit {
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+}
+body .contenedorIndex p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #0d1321;
+  width: 100%;
+  height: 4rem;
+}
+footer .containerFooter {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "item1 item2";
+}
+footer .containerFooter .footer-content {
+  grid-area: item1;
+}
+footer .containerFooter .footer-content .footer-logo {
+  width: 3.5rem;
+}
+footer .containerFooter .footer-content .footer-logo img {
+  width: 3rem;
+  height: 3rem;
+  border: 2px;
+}
+footer .containerFooter .footer-content .footer-links ul {
+  list-style: none;
+  display: flex;
+}
+footer .containerFooter .footer-content .footer-links ul li {
+  margin: 15px;
+}
+footer .containerFooter .footer-content .footer-links ul li a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #edf6f9;
+}
+footer .containerFooter .footer-content .footer-links ul li a:hover {
+  font-size: 20px;
+}
+footer .containerFooter .footer-social {
+  grid-area: item2;
+}
+footer .containerFooter .footer-social ul {
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+footer .containerFooter .footer-social ul li {
+  margin: 5px;
+  list-style: none;
+}
+footer .containerFooter .footer-social ul li a img {
+  width: 2rem;
+  height: 2rem;
+}
+
+header nav {
+  padding: 5px;
+}
+header nav .container-fluid .navbar-brand {
+  justify-content: space-evenly;
+}
+header nav .container-fluid .navbar-brand img {
+  width: 4rem;
+  height: 4rem;
+}
+header nav .container-fluid .collapse navbar-collapse {
+  margin-left: 10px;
+}
+header nav .container-fluid .collapse navbar-collapse ul {
+  width: 100% !important;
+  display: flex;
+  margin-left: auto;
+  justify-content: space-evenly !important;
+}
+header nav .container-fluid .collapse navbar-collapse ul .nav-item {
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
