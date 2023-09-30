@@ -59,6 +59,19 @@ body .contenedorIndex p {
   font-weight: bold;
   margin-top: 2rem;
 }
+body .ContenedorCarrusel {
+  margin: 15px;
+  width: 95%;
+  /*height: 20rem;*/
+}
+body .ContenedorCarrusel #carouselExampleCaptions {
+  width: 100%;
+  height: 100%;
+}
+body .ContenedorCarrusel #carouselExampleCaptions .carousel-item img {
+  width: 100%;
+  height: 100%;
+}
 
 footer {
   background-color: #e3f2fd;
@@ -66,6 +79,7 @@ footer {
   height: 4rem;
 }
 footer .containerFooter {
+  align-content: center;
   width: 100%;
   height: 100%;
   display: grid;
@@ -99,6 +113,7 @@ footer .containerFooter .footer-content .footer-links ul li a:hover {
 }
 footer .containerFooter .footer-social {
   grid-area: item2;
+  align-items: center;
 }
 footer .containerFooter .footer-social ul {
   width: 90%;
@@ -128,8 +143,32 @@ header nav .container-fluid div {
   margin-left: auto;
 }
 header nav .container-fluid div ul {
+  font-size: x-large;
+  font-weight: bolder;
   margin-right: 0;
   margin-left: auto;
+}
+
+@media (min-width: 912px) {
+  /*INDEX*/
+  .contenedorIndex {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorIndex .explicacion1 {
+    display: grid;
+    grid-template-areas: "item11" "item22";
+  }
+  .contenedorIndex .explicacion1 p {
+    grid-area: item22;
+  }
+  .contenedorIndex .explicacion1 img {
+    grid-area: item11;
+  }
+  .ContenedorCarrusel {
+    margin: 0;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

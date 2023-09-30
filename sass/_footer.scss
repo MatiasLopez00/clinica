@@ -3,6 +3,7 @@ footer{
     width: 100%;
     height: 4rem;
     .containerFooter{
+        align-content: center;
         width: 100%;
         height: 100%;
         display: grid;
@@ -40,6 +41,7 @@ footer{
         }
         .footer-social{
             grid-area: item2;
+            align-items: center;
                 ul{
                     width: 90%;
                     display: flex;

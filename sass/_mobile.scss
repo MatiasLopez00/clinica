@@ -1,0 +1,25 @@
+@media (min-width: 912px) {
+
+        /*INDEX*/
+        .contenedorIndex{
+            display: flex;
+            flex-direction: column;
+            .explicacion1{
+                display: grid;
+                grid-template-areas: 'item11'
+                'item22';
+                p{
+                    grid-area: item22;
+                }
+                img{
+                    grid-area: item11;
+                }
+
+            } 
+        }
+        .ContenedorCarrusel{
+            margin: 0;
+            width: 100%;
+        }
+    }
+    
