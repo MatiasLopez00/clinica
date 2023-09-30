@@ -8,10 +8,10 @@
                 display: grid;
                 grid-template-areas: 'item11'
                 'item22';
-                p{
+                .p1{
                     grid-area: item22;
                 }
-                img{
+                .img1{
                     grid-area: item11;
                 }
 
@@ -20,6 +20,10 @@
         .ContenedorCarrusel{
             margin: 0;
             width: 100%;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
         }
     }
     

@@ -159,15 +159,19 @@ header nav .container-fluid div ul {
     display: grid;
     grid-template-areas: "item11" "item22";
   }
-  .contenedorIndex .explicacion1 p {
+  .contenedorIndex .explicacion1 .p1 {
     grid-area: item22;
   }
-  .contenedorIndex .explicacion1 img {
+  .contenedorIndex .explicacion1 .img1 {
     grid-area: item11;
   }
   .ContenedorCarrusel {
     margin: 0;
     width: 100%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
   }
 }
 
